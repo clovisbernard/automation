@@ -40,8 +40,8 @@ cd vpc-automation-with-terraform
 aws configure
 
 ### Step 3: Initialize Terraform
-cd vpc-module
-terraform init
+**cd vpc-module**
+**terraform init**
 
 ### Step 4: Plan the Terraform Execution
 terraform plan
@@ -52,11 +52,11 @@ terraform apply
 ### Step 6: Verify the Resources
 Once the Terraform script completes, you should have:
 
-- **A new VPC.
-- **Two Internet Gateways attached to the VPC.
-- **Two Public Subnets and Private Subnets in different availability zones.
-- **Two NAT Gateways with associated Elastic IPs.
-- **Properly configured Route Tables for public and private subnets.
+- **A new VPC.**
+- **Two Internet Gateways attached to the VPC.**
+- **Two Public Subnets and Private Subnets in different availability zones.**
+- **Two NAT Gateways with associated Elastic IPs.**
+- **Properly configured Route Tables for public and private subnets.**
 
 ### Step 7: Destroy Resources (Optional)
 terraform destroy
