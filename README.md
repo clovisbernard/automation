@@ -63,15 +63,15 @@ terraform destroy
 
 
 ### How the Modules Work
-vpc.tf: Defines the core VPC infrastructure.
-subnets.tf: Creates public and private subnets across multiple availability zones.
-eip.tf: Allocates Elastic IPs for the NAT Gateways.
-nat.tf: Configures the NAT Gateways within the public subnets.
-igw.tf: Configures the Internet Gateway for the VPC.
-routes.tf: Creates the Route Tables and routes for both public and private subnets.
-route_association.tf: Associates the Route Tables with the subnets.
-variables.tf: Defines the variables that can be customized for this setup.
-terraform.tfvars: Contains the variable values for Terraform execution.
+**vpc.tf: Defines the core VPC infrastructure.**
+**subnets.tf: Creates public and private subnets across multiple availability zones.**
+**eip.tf: Allocates Elastic IPs for the NAT Gateways.**
+**nat.tf: Configures the NAT Gateways within the public subnets.**
+**igw.tf: Configures the Internet Gateway for the VPC.**
+**routes.tf: Creates the Route Tables and routes for both public and private subnets.**
+**route_association.tf: Associates the Route Tables with the subnets.**
+**variables.tf: Defines the variables that can be customized for this setup.**
+**terraform.tfvars: Contains the variable values for Terraform execution.**
 
 Contributing
 Feel free to fork the repository and submit pull requests for any improvements. If you encounter any issues, please open an issue on GitHub.
