@@ -59,8 +59,9 @@ cd vpc-module
 terraform init
 ```
 ### Step 4: Plan the Terraform Execution
+```bash
 terraform plan
-
+```
 ### Step 5: Apply the Terraform Configuration
 ```bash
 terraform apply
