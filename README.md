@@ -25,9 +25,7 @@ vpc-automation-with-terraform/
 └── README.md                  # Main project documentation
 ```
 
-
 ## Project Overview
-
 This project includes the following AWS resources:
 - **VPC** with an IPv4 CIDR block.
 - **Internet Gateways** attached to the VPC.
@@ -52,21 +50,24 @@ cd vpc-automation-with-terraform
 ```
 
 ### Step 2: Set up AWS Credentials
+```bash
 aws configure
-
+```
 ### Step 3: Initialize Terraform
-**cd vpc-module**
-**terraform init**
-
+```bash
+cd vpc-module
+terraform init
+```
 ### Step 4: Plan the Terraform Execution
 terraform plan
 
 ### Step 5: Apply the Terraform Configuration
+```bash
 terraform apply
+```
 
 ### Step 6: Verify the Resources
 Once the Terraform script completes, you should have:
-
 - **A new VPC.**
 - **Two Internet Gateways attached to the VPC.**
 - **Two Public Subnets and Private Subnets in different availability zones.**
@@ -74,8 +75,9 @@ Once the Terraform script completes, you should have:
 - **Properly configured Route Tables for public and private subnets.**
 
 ### Step 7: Destroy Resources (Optional)
+```bash
 terraform destroy
-
+```
 
 ### How the Modules Work
 - **vpc.tf: Defines the core VPC infrastructure.**
@@ -92,4 +94,4 @@ terraform destroy
 Feel free to fork the repository and submit pull requests for any improvements. If you encounter any issues, please open an issue on GitHub.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
