@@ -24,17 +24,17 @@ This project includes the following AWS resources:
 - **Route Table Associations** to bind subnets to their respective route tables.
 
 ## Requirements
-
 - **Terraform** version 1.x or higher.
 - **AWS account** with sufficient privileges to create VPC, subnets, gateways, and related resources.
 
 ## How to Use
-
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
+```bash
 
 git clone https://github.com/clovisbernard/vpc-automation-with-terraform.git
-cd vpc-automation-with-terraform**
+cd vpc-automation-with-terraform
+```
 
 ### Step 2: Set up AWS Credentials
 aws configure
