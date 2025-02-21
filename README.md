@@ -34,7 +34,7 @@ This project includes the following AWS resources:
 Clone this repository to your local machine:
 
 git clone https://github.com/clovisbernard/vpc-automation-with-terraform.git
-cd vpc-automation-with-terraform
+**cd vpc-automation-with-terraform**
 
 ### Step 2: Set up AWS Credentials
 aws configure
