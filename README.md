@@ -7,7 +7,23 @@ The project is divided into two main parts:
 - **vpc-module**: Contains reusable Terraform modules for setting up VPC resources.
 
 ## Repository Structure
-
+```plaintext
+vpc-automation-with-terraform/
+├── vpc-resource/              # Contains the AWS VPC resources
+│   └── main.tf                # Main resource definition for creating the VPC
+├── vpc-module/                # Contains reusable Terraform modules for VPC setup
+│   ├── nat.tf                 # NAT Gateway configurations
+│   ├── routes.tf              # Route Table definitions
+│   ├── variables.tf           # Input variables for customization
+│   ├── eip.tf                 # Elastic IP configurations
+│   ├── providers.tf           # Provider settings (AWS)
+│   ├── subnets.tf             # Subnet definitions
+│   ├── vpc.tf                 # VPC resource creation
+│   ├── igw.tf                 # Internet Gateway configurations
+│   ├── route_association.tf   # Route table association
+│   └── terraform.tfvars       # Variable values for Terraform
+└── README.md                  # Main project documentation
+```
 
 
 ## Project Overview
@@ -31,7 +47,6 @@ This project includes the following AWS resources:
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
 ```bash
-
 git clone https://github.com/clovisbernard/vpc-automation-with-terraform.git
 cd vpc-automation-with-terraform
 ```
