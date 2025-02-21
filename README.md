@@ -32,7 +32,7 @@ This project includes the following AWS resources:
 
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
-```bash
+
 git clone https://github.com/clovisbernard/vpc-automation-with-terraform.git
 cd vpc-automation-with-terraform
 
