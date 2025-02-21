@@ -73,8 +73,8 @@ terraform destroy
 - **variables.tf: Defines the variables that can be customized for this setup.**
 - **terraform.tfvars: Contains the variable values for Terraform execution.**
 
-Contributing
+## Contributing
 Feel free to fork the repository and submit pull requests for any improvements. If you encounter any issues, please open an issue on GitHub.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
